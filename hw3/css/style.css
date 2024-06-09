@@ -1,0 +1,29 @@
+.d1 {
+    font-family: 'open-sans', sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.d2 {
+    text-decoration: line-through;
+}
+
+.d3 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.d4 {
+    color: rgb(59, 19, 97);
+    text-decoration-line: overline;
+    text-decoration-style: wavy;
+    text-shadow: 1px 1px 5px #a33a80;
+    word-spacing: 30px;
+}
+
+.d5 {
+    letter-spacing: 5px;
+    text-decoration-line: underline;
+    text-decoration-style: double;
+}
