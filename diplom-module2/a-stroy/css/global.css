@@ -1,0 +1,112 @@
+:root {
+    --font-family: "Gilroy", sans-serif;
+    --second-family: "Montserrat Alternates", sans-serif;
+    --main-color: #593F0D;
+    --main-color-2: #FFC858;
+    --transition: all .5s;
+    --border-circle: 100px;
+    --box-shadow: inset 16.63px 0px 21.88px 0px rgba(255, 255, 255, 0.11),inset 0px 1.75px 13.13px 0px rgba(255, 255, 255, 0.41);
+    --main-background: linear-gradient(-45.46deg, rgba(255, 255, 255, 0) -0.167%,rgba(255, 255, 255, 0.39) 53.511%,rgba(255, 255, 255, 0) 124.005%),linear-gradient(193.32deg, rgb(255, 199, 113) -30.765%,rgb(255, 200, 88) 211.233%);
+}
+
+.body {
+    font-family: "Gilroy", "Arial", sans-serif;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+padding: 5px;
+}
+
+
+.wrapper {
+    min-height: 100%;
+    max-width: 1400px;
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.title-slim {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 1.2;
+    text-align: center;
+    color: var(--main-color);
+}
+
+.title-slim-color {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    color: var(--main-color-2);
+}
+
+.title-mini {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 25px;
+    color: #593f0d;
+}
+
+.button {
+    position: relative;
+    text-transform: uppercase;
+    border-radius: 10px 10px 10px 10px / 70px 70px 70px 70px;
+    box-shadow: inset 16.63px 0px 21.88px 0px rgba(255, 255, 255, 0.11), inset 0px 1.75px 13.13px 0px rgba(255, 255, 255, 0.41);
+    box-shadow: 0 5px 0 rgba(197, 156, 73, 0.781), 0 10px 5px #726e6e5d;
+
+    background: linear-gradient(-45.46deg, rgba(255, 255, 255, 0) -15.916%, rgba(255, 255, 255, 0.39) 38.249%, rgba(255, 255, 255, 0) 109.381%), linear-gradient(193.32deg, rgb(255, 199, 113) 9.006%, rgb(255, 200, 88) 101.782%);
+    transition: all .4s ease-in-out;
+}
+
+.button:hover {
+    background: #aae3fc;
+    box-shadow: 0 5px 0 rgba(201, 201, 201, 0.781);
+    color: #000000;
+    border-radius: 25px;
+}
+
+.button-text {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.91667;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #835d13;
+}
+
+/* .trust {
+    max-height: 100vh;
+} */
+
+.header{
+    margin-bottom: 76px;
+}
+
+.examples {
+    margin-bottom: 91px;
+}
+
+.offers {
+    margin-bottom: 83px;
+}
+
+.trust {
+    margin-bottom: 95px;
+}
+
+.steps {
+    margin-bottom: 167px;
+}
+
+.partners {
+    margin-bottom: 150px;
+}
